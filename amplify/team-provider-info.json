@@ -1,0 +1,43 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ecomboy-dev-152708-authRole",
+      "UnauthRoleArn": "arn:aws:iam::571989750474:role/amplify-ecomboy-dev-152708-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::571989750474:role/amplify-ecomboy-dev-152708-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ecomboy-dev-152708-deployment",
+      "UnauthRoleName": "amplify-ecomboy-dev-152708-unauthRole",
+      "StackName": "amplify-ecomboy-dev-152708",
+      "StackId": "arn:aws:cloudformation:us-east-1:571989750474:stack/amplify-ecomboy-dev-152708/831a6620-fab6-11ec-85b0-0e69df284531",
+      "AmplifyAppId": "d7f1ulbxbm7sb"
+    }
+  },
+  "ecomboy": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ecomboy-ecomboy-124725-authRole",
+      "UnauthRoleArn": "arn:aws:iam::571989750474:role/amplify-ecomboy-ecomboy-124725-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::571989750474:role/amplify-ecomboy-ecomboy-124725-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ecomboy-ecomboy-124725-deployment",
+      "UnauthRoleName": "amplify-ecomboy-ecomboy-124725-unauthRole",
+      "StackName": "amplify-ecomboy-ecomboy-124725",
+      "StackId": "arn:aws:cloudformation:us-east-1:571989750474:stack/amplify-ecomboy-ecomboy-124725/5d683110-fb69-11ec-b5dd-0eb1d0ac64c7",
+      "AmplifyAppId": "d7f1ulbxbm7sb"
+    },
+    "categories": {
+      "auth": {
+        "ecomboye98fcc9a": {}
+      },
+      "function": {
+        "CreatePaymentIntent": {
+          "deploymentBucketName": "amplify-ecomboy-ecomboy-124725-deployment",
+          "s3Key": "amplify-builds/CreatePaymentIntent-4f6d4c7674446a355041-build.zip"
+        },
+        "StripeWebHook": {
+          "deploymentBucketName": "amplify-ecomboy-ecomboy-124725-deployment",
+          "s3Key": "amplify-builds/StripeWebHook-6532614d6d523851312b-build.zip"
+        }
+      }
+    }
+  }
+}
